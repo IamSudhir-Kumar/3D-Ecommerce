@@ -8,9 +8,29 @@ import { download } from '../assets';
 import { downloadCanvasToImage, reader } from '../config/helpers';
 import { EditorTabs, FilterTabs, DecalTypes } from '../config/constants';
 import { fadeAnimation, slideAnimation } from '../config/motion';
+import { AIPicker, ColorPicker, CustomButton, Tab, FilePicker } from '../components';
+
 const Customizer = () => {
+  const snap = useSnapshot(state);
   return (
-    <div>Customizer</div>
+    <AnimatePresence>
+      {!snap.intro && (
+        <>
+        <motion.div
+        key="custom"
+        className="absolute top-0 left-0 z-10"
+        {...slideAnimation('left')}
+        >
+          <div className="flex items-center min-h-screen">
+            <div className="editortabs-container tabs">
+              {EditorTabs}
+            </div>
+          </div>
+
+        </motion.div>
+        </>
+      )}
+    </AnimatePresence>
   )
 }
 
