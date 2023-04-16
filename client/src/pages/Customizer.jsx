@@ -1,4 +1,4 @@
-import React, { useStat, useEffect } from 'react';
+import React, { useStat, useEffect, useState } from 'react';
 import { AnimatePresence, motion} from 'framer-motion';
 import { useSnapshot } from 'valtio';
 
@@ -12,6 +12,20 @@ import { AIPicker, ColorPicker, CustomButton, Tab, FilePicker } from '../compone
 
 const Customizer = () => {
   const snap = useSnapshot(state);
+  
+  const [file, setFile] = useState('');
+
+  const [prompt, setPrompt] = useState('');
+  const [generatingImg, setGeneratingImg] = useState('');
+
+  const [activeEditorTab, setActiveEditorTab] = useState('');
+  const [activeFilterTab, setActiveFilterTab] = useState({
+    logoShirt: true,
+    stylishShirt: false,
+  });
+  const generateTabContent = () => {
+    
+  }
   return (
     <AnimatePresence>
       {!snap.intro && (
