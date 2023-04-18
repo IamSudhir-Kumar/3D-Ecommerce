@@ -24,7 +24,17 @@ const Customizer = () => {
     stylishShirt: false,
   });
   const generateTabContent = () => {
-    
+    switch (activeEditorTab) {
+      case "colorpicker":
+        return <ColorPicker />
+      case "filePicker":
+        return <FilePicker />
+      case "aipicker":
+        return <AIPicker />
+        break;
+      default:
+        return null
+    }
   }
   return (
     <AnimatePresence>
@@ -41,9 +51,11 @@ const Customizer = () => {
                 <Tab
                 key={tab.name}
                 tab={tab}
-                handleClick={() => {}}
+                handleClick={() => setActiveEditorTab(tab.name)}
                  />
               ))}
+
+              {generateTabContent()}
             </div>
           </div>
 </motion.div>
@@ -71,7 +83,7 @@ const Customizer = () => {
                 isActiveTab=""
                 handleClick={() => {}}
                  />
-              ))}
+              ))}        
         </motion.div>
         </>
       )}
