@@ -10,6 +10,6 @@ The site will also have a feature that allows users to customize and personalize
 
 In addition to 3-D models, the website will also have high-quality product images and videos that showcase each item in detail. The site will be optimized for both desktop and mobile devices, ensuring that users can access the site from anywhere and on any device.
 
-To ensure a seamless and secure shopping experience, the site will have a robust payment system that supports multiple payment options, such as credit cards, debit cards, and online wallets. The site will also have a comprehensive customer service system that allows users to ask questions and get support in real-time.
+
 
 Overall, this 3-D ecommerce website will provide users with an engaging and immersive shopping experience that sets it apart from traditional ecommerce websites. By leveraging the power of 3-D modeling and customization features, this site will offer users a unique and personalized shopping experience that is sure to leave a lasting impression.
