@@ -12,4 +12,3 @@ In addition to 3-D models, the website will also have high-quality product image
 
 
 
-Overall, this 3-D ecommerce website will provide users with an engaging and immersive shopping experience that sets it apart from traditional ecommerce websites. By leveraging the power of 3-D modeling and customization features, this site will offer users a unique and personalized shopping experience that is sure to leave a lasting impression.
