@@ -8,7 +8,7 @@ The website will have a user-friendly interface that is easy to navigate. Users 
 
 The site will also have a feature that allows users to customize and personalize the products they purchase. For example, users may be able to change the color, texture, or size of an item, and see the changes reflected in the 3-D model. This feature will allow users to see how their customized products will look before making a purchase.
 
-In addition to 3-D models, the website will also have high-quality product images and videos that showcase each item in detail. The site will be optimized for both desktop and mobile devices, ensuring that users can access the site from anywhere and on any device.
+
 
 
 
